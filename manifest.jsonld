@@ -1,1 +1,35 @@
-[PASTE THE JSON CONTENT HERE]
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "padi": "https://padi-standard.org/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@type": ["schema:GovernmentService", "padi:SovereignNode"],
+  "@id": "https://github.com/PeculiarLibrarian/The-Sovereign-Bureau-Archive",
+  "schema:name": "Nairobi-01-Node",
+  "schema:alternateName": "The Sovereign Bureau Global Settlement Node",
+  "schema:description": "A functional implementation of the PADI Technical Standard for decentralized clinical data management.",
+  "schema:provider": {
+    "@type": "schema:Person",
+    "schema:name": "Samuel Muriithi Gitandu",
+    "schema:jobTitle": "Information Scientist",
+    "schema:url": "https://hashnode.com/@PeculiarLibrarian"
+  },
+  "schema:location": {
+    "@type": "schema:Place",
+    "schema:name": "Nairobi, Kenya"
+  },
+  "schema:hasCredential": {
+    "@type": "schema:CreativeWork",
+    "schema:identifier": "DOI:10.5281/zenodo.18894084",
+    "schema:name": "PADI Technical Standard v3.0"
+  },
+  "padi:nodeStatus": "Active",
+  "padi:enforcedBy": "https://github.com/PeculiarLibrarian/PADI-Dental-Standard/blob/main/schemas/padi_validator_v1.shacl",
+  "schema:mainEntityOfPage": [
+    "https://github.com/PeculiarLibrarian/The-Sovereign-Bureau-Archive/manifestos/philosophy/sovereign-bureau-manifesto.md",
+    "https://github.com/PeculiarLibrarian/The-Sovereign-Bureau-Archive/manifestos/philosophy/securing-the-smile.md"
+  ],
+  "schema:datePublished": "2026-04-15T14:00:00Z",
+  "schema:license": "https://opensource.org/licenses/MIT"
+}
