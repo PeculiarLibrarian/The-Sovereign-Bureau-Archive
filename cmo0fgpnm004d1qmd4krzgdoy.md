@@ -15,7 +15,7 @@ tags: ai, testing, open-source, knowledge-graph, information-science, breaking-a
 
 In the high-stakes environment of maritime logistics, "Ghost Inventory"—data that exists in a ledger but not in a physical bin—represents a systemic failure of information architecture. This article details the deployment of the **Nairobi-01 Maritime Node**, a technical standard built on **PADI v3.0** logic and validated using **Passmark’s AI-native testing suite**. By applying the **McKinsey 7S Framework**, we demonstrate how structural determinism, rather than raw data volume, ensures operational sovereignty at sea.
 
-## 🏛️ 1. Strategy & Structure: The PADI v3.0 Blueprint
+## 1. Strategy & Structure: The PADI v3.0 Blueprint
 
 Traditional maritime inventory systems suffer from "flat-file" limitations. The Sovereign Bureau utilizes the **Practice-Area Depth Index (PADI)** to transform inventory into a machine-readable Knowledge Graph.
 
@@ -26,7 +26,7 @@ Traditional maritime inventory systems suffer from "flat-file" limitations. The 
 
 By using **SHACL (Shapes Constraint Language)**, the Bureau enforces "Structural Integrity" at the point of entry. If the data does not fit the "Shape" of the vessel's physical architecture, the Bureau rejects the entry, mathematically eliminating the possibility of ghost inventory.
 
-## 🛠️ 2. Systems & Style: Stress-Testing the Sovereign
+## 2. Systems & Style: Stress-Testing the Sovereign
 
 To ensure the Bureau remains "unbreakable," I participated in the **#BreakingAppsHackathon** by integrating **Passmark**, an AI-native E2E testing library.
 
@@ -69,7 +69,7 @@ test("Audit PADI v3.0 Maritime Node", async ({ page }) => {
 });
 ```
 
-## 📊 3. Shared Values & Skills: Lessons from the AI Handshake
+## 3. Shared Values & Skills: Lessons from the AI Handshake
 
 Applying the **McKinsey 7S Framework** to this build revealed critical insights into the future of "Vibe Coding" and AI-augmented architecture:
 
@@ -79,7 +79,7 @@ Applying the **McKinsey 7S Framework** to this build revealed critical insights 
 
 Passmark’s ability to interpret "MECE" (Mutually Exclusive, Collectively Exhaustive) structure within a file directory was a revelation. It proved that AI can validate **abstract organizational principles**, not just button clicks.
 
-## 🚀 4. Conclusion: The Future of Sovereign Nodes
+## 4. Conclusion: The Future of Sovereign Nodes
 
 The Nairobi-01 Node is more than a repository; it is a proof-of-concept for **Global Technical Equity**. By combining robust Information Science (PADI) with resilient AI testing (Passmark), we reclaim the right to deterministic, high-integrity systems.
 
